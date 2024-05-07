@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px ){
+
+body {
+    
+    background-color: linear-gradient( to right, #1e2f42, #0f2c20);
+}
+:root{
+        --Snigle-font : "Sniglet", cursive;
+        --Rubik :"Rubik", cursive;
+        --Patua : "Patua", cursive; 
+        --Lobster : "Lobster", cursive ;
+        --light-black: #2e2c2caf;
+        --bggradient : linear-gradient( to right, #173455, #0a423f);
+        --light-gray : rgb(255, 255, 255) ;
+        --warnasecond : rgb(25, 27, 56);
+    }
+
+.row h1{
+
+padding-top: 20px;
+
+}
+ header .nav-item {
+    background-color: #ebe4e450;
+    width: 400px;
+    padding-right: 20px;
+    }
+
+.foto2 {
+    width: 100%;
+    height: 400px;
+    
+}
+.col-md-6 .panel{
+    background-color: #1e2f42;
+    text-align: center;
+    opacity: 0.98;
+    border-radius: 15px;
+    height: auto;  
+    width: 100%;
+    font-family: var(--Rubik);
+    -webkit-box-shadow: -5px -21px 94px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px -21px 94px 5px rgba(0,0,0,0.75);
+box-shadow: -5px -21px 94px 5px rgba(0,0,0,0.75);
+    position: initial;
+    margin-top:1px;
+    }
+
+.image-box img{
+
+    width: 100%;
+    height: 100px ;
+}
+
+#yutub {
+width: 100%;
+height: 400px;
+}
+
+
+
+ }
+

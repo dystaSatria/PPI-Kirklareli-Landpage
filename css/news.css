@@ -1,0 +1,37 @@
+:root{
+    --Snigle-font : "Sniglet", cursive;
+    --Rubik :"Rubik", cursive;
+    --Patua : "Patua", cursive; 
+    --Lobster : "Lobster", cursive ;
+    --light-black: #2e2c2caf;
+    --bggradient : linear-gradient( to right, #1e2f42, #0f2c20);
+    --light-gray : rgb(255, 255, 255) ;
+    --warnasecond : rgb(25, 27, 56);
+}
+
+
+header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(20, 20, 3, 0.87),rgba(4,9,30,0.7)), url('../assets/news.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+body{
+background: var(--bggradient);
+margin: 0;
+padding: 0;
+}
+
+.text-box{
+    width: 90%;
+    color: bisque;
+    left: 50%;
+    top: 70%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+

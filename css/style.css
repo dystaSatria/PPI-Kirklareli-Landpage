@@ -1,0 +1,153 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik&family=Sniglet&display=swap');
+
+*{
+    box-sizing: border-box;
+  
+
+}
+
+body{
+    background:#241363;
+    background: var(--bggradient);
+
+}
+
+header,
+section{
+overflow-x:hidden;
+}
+
+
+
+:root{
+    --Snigle-font : "Sniglet", cursive;
+    --Rubik :"Rubik", cursive;
+    --Patua : "Patua", cursive; 
+    --Lobster : "Lobster", cursive ;
+    --light-black: #2e2c2caf;
+    --bggradient : linear-gradient( to right, #1e2f42, #0f2c20);
+    --light-gray : rgb(255, 255, 255) ;
+    --warnasecond : rgb(25, 27, 56);
+}
+
+header a{
+
+    font-size: 20px;
+    color: bisque;
+}
+
+
+
+.navbar .ml-
+
+header{
+   
+    color: bisque;
+}
+
+.dropdown-content{
+display: none;
+position: fixed;
+background: #0f2c20;
+min-width: 160px;
+box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: grey;
+
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child{
+    padding-right: 100px;
+}
+
+header .nav-item{
+padding: 0.5em;
+
+}
+
+header .navbar-brand{
+    padding-left: 100px;
+}
+
+.nav-atas:hover {
+
+color: rgb(10, 9, 9);
+
+}
+
+.row h1{
+    padding-top: 100px;
+}
+
+/* section-1 */
+
+.section-1 {
+    padding: 20vmin 0;
+}
+
+
+.foto2{
+    opacity: 0.2;
+    width: auto;
+    height: 600px;
+}
+
+.col-md-6 .panel{
+background-color: linear-gradient(to right, black,blue);
+text-align: center;
+opacity: 0.98;
+border-radius: 15px;
+height: 400px;  
+width: 600px;
+margin-top: 90px;
+margin-right: 150px;
+padding-top: 20px;
+font-family:  --Lobster;
+box-shadow: 10px 25px 42px black;
+}
+
+.col-md-6 .panel p{
+    font-size: 20px;
+    align-content: flex-start;
+}
+
+
+/* section-2 */
+
+.kartu2  {
+    background-color: linear-gradient(to right, black,blue);
+}
+
+
+    /*footer */
+
+    footer {
+
+
+    padding: 14vmin 18vmin;
+    margin-top: 100px;
+    }
+
+    footer p{
+        color: aliceblue;
+    }
+
+    footer .column .fa-brand:hover{
+        background-color: bisque;
+    }
